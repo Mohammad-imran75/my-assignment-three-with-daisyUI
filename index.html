@@ -30,8 +30,8 @@
   }
 </style>
 </head>
-<body class="font-marope">
-    <header class="py-10 mx-auto">
+<body class="font-manrope">
+    <header class="p-0 lg:px-24 mx-auto mt-10">
       <!-- navbar section -->
       <div class="navbar bg-base-100">
         <div class="navbar-start">
@@ -58,13 +58,77 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <a class="btn bg-[#FF4240] text-[#FFFF]"> <i class="  lg:fa-solid fa-magnifying-glass absolute mr-40 text-black text-xl "></i> Get Ticket</a>
+          <i class="fa-solid fa-magnifying-glass sm:hidden lg:pr-4 text-xl"></i>
+          <a class="btn bg-[#FF4240] text-[#FFFF]">  Get Ticket</a>
         </div>
       </div>
-
+      <div class="mx-auto mt-10">
+        <div class="carousel w-full mx-auto">
+          <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] h-[550px] rounded-lg bg-no-repeat">
+            <div class="absolute flex justify-start pt-[400px] transform -translate-y-1/2 left-5 right-5 top-1/2 ">
+              <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
+              <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
+            </div>  
+          </div>
+          <div id="slide2" class="carousel-item relative w-full  bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/2.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+            <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
+              <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
+              <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
+            </div>
+          </div> 
+          <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/3.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+            <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
+              <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
+              <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
+            </div>
+          </div> 
+          <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/4.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+            <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
+              <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
+              <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="w-[560px] h-[160px] bg-black mx-auto rounded-2xl -translate-y-full -my-12 ml-[480px]">
+        <h3 class="text-2xl font-extrabold text-white p-4">Meet all the heroes from the field</h3>
+        <p class="p-4 text-white"> selflessness prevails as individuals courageously face adversity, inspiring others with their noble acts of compassion and bravery. </p>
+      </div> 
     </header>
     <main>
-
+      <!-- Hockey club -->
+      <section class="container mx-auto">
+        <div class="text-center" >
+          <h3 class="text-3xl font-extrabold">Professional Hockeys Club</h3>
+          <p class="font-medium w-[600px] mx-auto mt-4">The hockey club unites players in a passionate pursuit of victory, fostering camaraderie and skill development, creating lasting memories on ice.</p>
+          <hr class="text-gray-200 mt-4">
+        </div>
+      </section>
+      <section class="container mx-auto mt-10 ">
+        <div class="grid gird-col lg: grid-cols-4 gap-2 p-4">
+          <div class="text-center">
+            <div class="radial-progress text-orange-600" style="--value:87;" role="progressbar">87%</div>
+            <h3 class="text-xl font-semibold">Prayer Facility</h3>
+            <p class="">State-of-the-art player facilities enhance training, offering cutting-edge equipment and personalized amenities for optimal performance and recovery.</p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-green-400" style="--value:95;" role="progressbar">95 %</div>
+            <h3 class="text-xl font-semibold">Prayer Facility</h3>
+            <p class="">State-of-the-art player facilities enhance training, offering cutting-edge equipment and personalized amenities for optimal performance and recovery.</p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-yellow-500" style="--value:90;" role="progressbar">90%</div>
+            <h3 class="text-xl font-semibold">Senior Player</h3>
+            <p>Senior players exhibit seasoned expertise, leadership, and mentorship, contributing invaluable experience to elevate team performance and dynamics.</p>
+          </div>
+          <div class="text-center">
+            <div class="radial-progress text-primary" style="--value:80;" role="progressbar">80%</div>
+            <h3 class="text-xl font-semibold">Training Ground</h3>
+            <p>The field training ground is a dynamic space where athletes refine skills, build teamwork, and achieve excellence together.</p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer>
 
