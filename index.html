@@ -18,6 +18,7 @@
             extend: {
               colors: {
                 clifford: '#da373d',
+                "btn-red": '#FF4240',
               }
             }
           }
@@ -58,31 +59,31 @@
           </ul>
         </div>
         <div class="navbar-end">
-          <i class="fa-solid fa-magnifying-glass sm:hidden lg:pr-4 text-xl"></i>
-          <a class="btn bg-[#FF4240] text-[#FFFF]">  Get Ticket</a>
+          <i class="fa-solid fa-magnifying-glass hidden lg:pr-4 text-xl"></i>
+          <a class="btn bg-[#FF4240] text-[#FFFF]">Get Ticket</a>
         </div>
       </div>
       <div class="mx-auto mt-10">
         <div class="carousel w-full mx-auto">
-          <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/1.png)] h-[550px] rounded-lg bg-no-repeat">
+          <div id="slide1" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/1.png)] bg-cover bg-center lg: h-[550px] rounded-lg bg-no-repeat">
             <div class="absolute flex justify-start pt-[400px] transform -translate-y-1/2 left-5 right-5 top-1/2 ">
               <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
               <a href="#slide2" class="btn btn-circle bg-black text-white">❯</a>
             </div>  
           </div>
-          <div id="slide2" class="carousel-item relative w-full  bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/2.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+          <div id="slide2" class="carousel-item relative w-full  bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/2.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
             <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
               <a href="#slide1" class="btn btn-circle  bg-black text-white">❮</a> 
               <a href="#slide3" class="btn btn-circle  bg-black text-white">❯</a>
             </div>
           </div> 
-          <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/3.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+          <div id="slide3" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/3.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
             <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
               <a href="#slide2" class="btn btn-circle  bg-black text-white">❮</a> 
               <a href="#slide4" class="btn btn-circle  bg-black text-white">❯</a>
             </div>
           </div> 
-          <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./images/4.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
+          <div id="slide4" class="carousel-item relative w-full bg-[linear-gradient(45deg,rgba(0,0,0,0.4),rgba(0,0,0,0.1)),url(./Images/4.png)] h-[550px] rounded-lg bg-no-repeat bg-cover bg-center">
             <div class="absolute flex justify-start transform -translate-y-1/2 left-5 right-5 top-1/2 pt-[400px]">
               <a href="#slide3" class="btn btn-circle  bg-black text-white">❮</a> 
               <a href="#slide1" class="btn btn-circle  bg-black text-white">❯</a>
@@ -101,14 +102,14 @@
       <section class="container mx-auto">
         <div class="text-center" >
           <h3 class="text-3xl font-extrabold">Professional Hockeys Club</h3>
-          <p class="font-medium w-[600px] mx-auto mt-4">The hockey club unites players in a passionate pursuit of victory, fostering camaraderie and skill development, creating lasting memories on ice.</p>
+          <p class="font-medium  lg:w-[600px] mx-auto mt-4">The hockey club unites players in a passionate pursuit of victory, fostering camaraderie and skill development, creating lasting memories on ice.</p>
           <hr class="text-gray-200 mt-4">
         </div>
       </section>
-      <section class="container mx-auto mt-10 ">
-        <div class="grid gird-col lg: grid-cols-4 gap-2 p-4">
+      <section class="container mx-auto mt-10  ">
+        <div class="p-0 gap-6 grid gird-cols-1 lg:grid-cols-4">
           <div class="text-center">
-            <div class="radial-progress text-orange-600" style="--value:87;" role="progressbar">87%</div>
+            <div class="radial-progress  text-orange-600" style="--value:87;" role="progressbar">87%</div>
             <h3 class="text-xl font-semibold">Prayer Facility</h3>
             <p class="">State-of-the-art player facilities enhance training, offering cutting-edge equipment and personalized amenities for optimal performance and recovery.</p>
           </div>
@@ -129,6 +130,241 @@
           </div>
         </div>
       </section>
+      <section class="container mt-10 mx-auto">
+        <!-- program section  -->
+        <div class="text-center">
+          <h3 class="text-4xl font-extrabold">Program Sections</h3>
+          <p class="font-medium lg:w-[600px] mx-auto pt-6 mb-10">Events bring people together for shared experiences, fostering connections, learning, and collaboration, creating memorable moments and meaningful interactions.
+          </p>
+        </div>
+        <div class="grid gap-6  grid-cols-1 lg:grid-cols-2  ">
+          <!-- program section card -->
+          <div class=>
+            <div class="hero min-h-screen lg:col-span-1 bg-[#13131880]" style="background-image: url(Images/2.png);">
+              <div class="hero-overlay bg-opacity-60"></div>
+              <div class="hero-content text-start text-neutral-content">
+                <div class="max-w-md">
+                  <h1 class="mb-5 text-2xl font-extrabold">Junior Program</h1>
+                  <p class="mb-5 font-medium">Junior events foster networking and skill development, providing a platform for learning and collaboration in a supportive environment.</p>
+                  <button class="btn border-none text-white bg-[#FF4240]">Register Now!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero min-h-screen col-span-2 lg:col-span-1  bg-[#13131880] rounded-2xl" style="background-image: url(Images/3.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-start text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-2xl font-extrabold">Teenager Program</h1>
+                <p class="mb-5 font-medium">Junior events foster networking and skill development, providing a platform for learning and collaboration in a supportive environment.</p>
+                <button class="btn border-none text-white bg-[#FF4240]">Register Now!</button>
+              </div>
+            </div>
+          </div>
+          <div class="hero min-h-screen col-span-2  bg-[#13131880] rounded-2xl" style="background-image: url(Images/4.png);">
+            <div class="hero-overlay bg-opacity-60"></div>
+            <div class="hero-content text-start text-neutral-content">
+              <div class="max-w-md">
+                <h1 class="mb-5 text-2xl font-extrabold">Professional Program</h1>
+                <p class="mb-5 font-medium">Professional events offer industry insights, networking opportunities, and skill enhancement, facilitating career growth and fostering connections within the field.</p>
+                <button class="btn border-none text-white bg-[#FF4240]">Register Now!</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+       <section class="container mx auto mt-10">
+        <div class="text-center">
+          <h2 class="text-4xl font-extrabold">Our New Products</h2>
+          <p class=" lg:w-[600px] mx-auto font-medium mt-6">
+            rack performance, monitor health, and stay connected during workouts with cutting-edge features and durability.
+          </p>
+        </div>
+       </section>
+       <section class="card container mx-auto mb-10 mt-10 grid gap-6 grid-col lg:grid-cols-2">
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/5.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero border-2 rounded-xl ">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/6.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/7.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/8.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/9.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero border-2 rounded-xl">
+          <div class="hero-content flex-col lg:flex-row">
+            <img src="Images/10.png" class="max-w-sm rounded-lg shadow-2xl" />
+            <div>
+              <div class="flex justify-between">
+                <div>
+                  <p><i class="fa-solid fa-star text-yellow-600 pr-2"></i>5.0</p>
+                </div>
+                <div>
+                  <p><i class="fa-regular fa-eye pr-2"></i>20</p>
+                </div>
+                <div>
+                  <p> <i class="fa-regular fa-heart pr-2"></i>200</p>
+                </div>
+              </div>
+
+              <h1 class="text-xl font-extrabold">World Cup Flags Football </h1>
+              <p class="py-6">Gridiron Glam: Strut the sidelines in stylish football-themed apparel and accessories.</p>
+              <div class="flex justify-between">
+                <div>
+                  <p class="font-extrabold text-[#FF4240]">Price - $22.00</p>
+                </div>
+                <div>
+                    <p><i class="fa-solid fa-cart-shopping"></i> Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+       </section>
+       <section class=" container mx-auto mt-10">
+          <div class="text-center">
+            <hr>
+            <h3 class="font-extrabold text-4xl pt-6">Clients Question</h3>
+            <p class="lg:w-[660px] mx-auto font-medium pt-6 pb-6">"How can your product be, what are the features?"</p>
+            <hr>
+          </div>
+       </section>
     </main>
     <footer>
 
